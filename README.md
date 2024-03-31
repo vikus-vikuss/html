@@ -9,7 +9,6 @@
         <title>Курсы</title>
 </head>
 <body>
-    
     <header class="header">
         <div class="wrapper">
             <div class="header_wrapper"> 
@@ -128,7 +127,6 @@
                         <div class="block_four">
                             <div class="text_for_block">Работы наших учениц</div>
                             <div class="work_student" id="imageContainer">
-
                                 <button class="arrow-button-left_work" onclick="smoothScrollGallery(-1)">
                                     <span class="arrow-left_work"></span>
                                 </button>
@@ -239,13 +237,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
-               
+                </div>  
                 <div class="header">
                     <div class="wrapper">
                         <div id="courses_section" class="block_eight">
                             <div class="text_for_block">Стоимость полного онлайн-курса</div>
-                            
                              <div class="content-price-frame">
                                 <div id="info1" class="content-price">
                                     <p class="name">Самостоятельный</p>
@@ -292,11 +288,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                        
+                                    </div>     
                                     <button id="buy-button" class="buy-button" onclick="openCartModal()">Добавить в корзину</button>
                                 </div>
-                               
                                 </div>
                                 <div id="info2" class="content-price">
                                     <p class="name">С обратной связью</p>
@@ -347,10 +341,8 @@
                                             </div>
                                     </div>
                                 </div>
-                                       
                                     <button id="buy-button" class="buy-button" onclick="openCartModal()">Добавить в корзину</button>
                                 </div>
-                               
                                 </div>
                                 <div id="info3" class="content-price">
                                     <p class="name">VIP</p>
@@ -401,7 +393,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                        
                                     <button id="buy-button" class="buy-button" onclick="openCartModal()">Добавить в корзину</button>
                                 </div>
                                 </div>
@@ -414,7 +405,6 @@
                                         <span class="close" onclick="closeModal()">&times;</span>
                                         <h1 class="korzina">Ваша корзина</h1>
                                         <div id="cartItems"></div>
-                                        
                                         <!-- Здесь будет отображаться список добавленных курсов -->
                                         <div class="t-top1">
                                             <input class="form-input" type="kurs-name-text" placeholder="ФИО">
@@ -432,7 +422,6 @@
                         </div>
                     </div>
                 </div> 
-            
                     <div class="header">
                         <div class="wrapper">
                             <div class="header">
